@@ -1,0 +1,22 @@
+<%- include('header'); %>
+
+<main role="main">
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Compose</h1>
+            <div class="formcontainer">
+                <form action="/compose" method="POST">
+                    <p class="composepara">Heading</p>
+                    <input type="text" name="postHeading" id="postheading" placeholder="Post Heading">
+
+                    <p class="composepara">Content</p>
+                    <textarea name="postContent" id="postcontent" cols="60" rows="13" placeholder="Write your Content Here."></textarea>
+
+                    <button type="submit" id="postsubmit" class="btn btn-secondary">Publish</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="javaScript/aboutjs.js"></script>
+
+    <%- include('footer'); %>

@@ -1,0 +1,39 @@
+<%- include('header'); -%>
+
+
+<main role="main">
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Contact Us</h1>
+            <br><br>
+            <p>xyz<br>Some Street, Some Location<br>Some Country, xzy pin <br> <br>
+               Email: xyz@gmail.com <br>
+               Telephone: xxxxxxxxxx <br>
+               Fax: xxxx <br>
+             </p>
+
+
+            <form class="form-signin">
+                <h1 class="h3 mb-3 font-weight-normal">Want Us to Give a Call?</h1>
+
+                <label for="inputName" class="sr-only">Name</label>
+                <input type="text" name='cName' id="inputName" class="form-control" placeholder="Enter Your Name" 
+                    required style="width: 17rem;">
+
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input type="email" name='cMail' id="inputEmail" class="form-control" placeholder="Email address"
+                    required style="width: 17rem;">
+
+                <label for="inputPassword" class="sr-only">Phone Number</label>
+                <input type="number" name='cPhone' id="inputPhone" class="form-control" placeholder="Phone Number"
+                    required style="width: 17rem;">
+                <br>
+                <button class="btn btn-lg btn-primary btn-block" type="submit" style="width: 17rem; padding: 5px;">Give Me A Call!</button>
+            </form>
+        </div>
+    </div>
+    <script src="javaScript/contactjs.js"></script>
+    
+    
+    <%- include('footer'); -%>

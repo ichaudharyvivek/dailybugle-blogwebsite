@@ -1,0 +1,100 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+  color: black;
+}
+
+/* Bootstrap CSS for home route*/
+
+.col-md-4{
+  margin-bottom: 3rem;
+  word-break:break-all
+}
+
+.postLink:link, .postLink:visited{
+  background-color: rgb(104, 102, 102);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.postLink:hover, .postLink:active{
+  background-color: rgb(85, 84, 84);
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* For Compose Page */
+
+.formcontainer{
+  margin-top: 2rem;
+}
+.composepara{
+  margin: 0 0 2px 72px;
+  padding: 5px;
+}
+
+#postheading{
+  position: relative;
+  margin: 2px auto 1rem auto;
+  display: block;
+  padding:10px;
+  width: 60rem;
+  overflow: hidden;
+}
+
+#postcontent{
+  position: relative;
+  margin: 2px auto 1rem auto;
+  display: block;
+  padding:10px;
+  width: 60rem;
+}
+
+#postsubmit{
+  position: relative;
+  padding: 5px 20px;
+  display: block;
+  border-radius: 5px;
+  border:none;
+  margin-left: 75.2px;
+}
+
+
+/*For Post Page*/
+
+.postadjust-h{
+  margin-top: 10px;
+  padding:100px;
+  
+}
+.postadjust-p{
+  margin-top: 25px;
+}
+
